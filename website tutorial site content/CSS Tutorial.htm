@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://www.afterhoursprogramming.com/tutorial/CSS/Overview/ -->
+<html lang="en"><!--- #NewServer ---><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>CSS Tutorial</title>
+<meta name="description" content="The CSS  tutorial explains a brief overview of how to use CSS to style your HTML documents.">
+<meta name="keywords" content="Cascading Style Sheets, CSS, overview, style, stylesheets, html">
+
+
+<meta property="DC.title" content="CSS Tutorial">
+<meta property="DC.creator" content="Jared Drake">
+<meta property="DC.Subject" content="CSS Tutorial">
+<meta property="DC.Description" content="The CSS  tutorial explains a brief overview of how to use CSS to style your HTML documents.">
+<meta property="DC.Publisher" content="After Hours Programming">
+<meta property="DC.Type" content="CSS, Web Development, Design, and Programming">
+<meta property="DC.Format" content="text/html">
+<meta property="DC.Identifier" content="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/">
+<meta property="DC.Source" content="Various tutorials, references, and courses about web development">
+<meta property="DC.Language" content="en">
+
+
+<link rel="canonical" href="./CSS Tutorial_files/CSS Tutorial.htm">
+<!--RSS-->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.afterhoursprogramming.com/services/rss/">
+<!--styles-->
+<!--<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>-->
+<!--<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'/>-->
+<link href="./CSS Tutorial_files/standards.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 980px)" href="./CSS Tutorial_files/standards.css">
+<link rel="stylesheet" media="screen and (max-width: 480px)" href="./CSS Tutorial_files/standards.css">
+<!--[if IE 7]>  
+<link rel="stylesheet" href="http://www.afterhoursprogramming.com/styles/ie7.css">  
+<![endif]-->  
+ <!--[if IE 8]>  
+<link rel="stylesheet" href="http://www.afterhoursprogramming.com/styles/ie8.css">  
+<![endif]-->  
+<link href="./CSS Tutorial_files/print.css" rel="stylesheet" type="text/css" media="print">
+
+<!--javascripts-->
+<script src="./CSS Tutorial_files/quant.js" async="" type="text/javascript"></script><script async="" type="text/javascript" src="./CSS Tutorial_files/ca-pub-6794114902756684.js"></script><script type="text/javascript" async="" src="./CSS Tutorial_files/ga.js"></script><script type="text/javascript" src="./CSS Tutorial_files/javascript-enabled.js"></script>
+</head>
+
+<body>
+
+<!--<div id="fb-root"></div>-->
+
+<div class="page-wrapper">
+<div class="header">
+	<div id="skipnav">
+    	<a tabindex="1" rel="nofollow" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#mainContent" onclick="document.getElementById(&#39;#mainContent&#39;).focus(); return false;">Skip to Content</a>
+    </div>
+	<div class="big-container">
+        <div class="title" onclick="window.location=&#39;http://www.afterhoursprogramming.com&#39;;"><img class="left logo" src="./CSS Tutorial_files/night-owl-75.gif" title="" alt="Logo">After Hours Programming</div>
+        <div class="nav">
+                    <ul>
+                <li><a href="http://www.afterhoursprogramming.com/">HOME</a></li>
+                <li><a rel="nofollow" href="http://www.afterhoursprogramming.com/services/">SERVICES</a></li>
+                                <li><a rel="nofollow" href="http://www.afterhoursprogramming.com/user/login/">SIGN IN</a></li>
+                <li><a rel="nofollow" href="http://www.afterhoursprogramming.com/user/create/">CREATE ACCOUNT</a></li>
+                            </ul>
+        	
+        </div>
+    </div>
+</div>
+<div class="mobile-ad-large">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-6794114902756684";
+google_ad_slot = "5201669545";	
+google_ad_width = 728;
+google_ad_height = 90;
+google_page_url = "www.afterhoursprogramming.com/tutorial/CSS/Overview/";
+//-->
+</script>
+<script type="text/javascript" src="./CSS Tutorial_files/show_ads.js">
+</script><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins>
+</div>
+    <div class="main">
+		<div class="big-container">
+                 <div class="text-left side-nav" style="">
+        	<div class="nav-block">
+                <div class="medium-heading">Tutorials</div>
+<div class="nav-element first-column"><a class="sec-nav-selected" href="./CSS Tutorial_files/CSS Tutorial.htm" title="The CSS tutorial explains an overview of CSS. Cascading Style Sheets have cured the symptoms of a boring internet by presenting the possibility of formatting and styling.">
+CSS</a><ul>
+<li>
+<a class="selected-link" href="./CSS Tutorial_files/CSS Tutorial.htm" title="The CSS Overview tutorial explains a brief overview of how to use CSS to style your HTML documents.">Overview</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Introduction/" title="The CSS Introduction tutorial explains how to use CSS in an HTML document, primarily how to reference them.">Introduction</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Classes/" title="The CSS Classes tutorial explains how to use the CSS selectors to apply changes to HTML elements.">Classes</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Font-and-Spacing/" title="The CSS Font and Spacing tutorial explains styling text using the font and spacing properties.">Font and Spacing</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Background/" title="The CSS Background tutorial explains how to manipulate the CSS background property.">Background</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Links/" title="The CSS Links tutorial explains how to style hyperlinks and the special states like hover, active, visited, and focus that come with them.">Links</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Lists/" title="The CSS Lists tutorial explains how to style lists both ordered and unordered.">Lists</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Tables/" title="The CSS Tables tutorial explains how to style tables and how to utilize CSS to generate a more readable table.">Tables</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Border/" title="The CSS Border tutorial explains how to create borders around your HTML elements using the border property in CSS.">Border</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Margin-and-Padding/" title="The CSS Margin and Padding tutorial explains css margin and padding properties.">Margin and Padding</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Display-and-Float/" title="The CSS Display and Float tutorial explains how set the display and float properties. Display is an organizational description, while float is an alignment.">Display and Float</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/Position-and-Alignment/" title="The CSS Position and Alignment tutorial explains how to use the CSS position property.">Position and Alignment</a>
+</li>
+<li>
+<a href="http://www.afterhoursprogramming.com/tutorial/CSS/CSS-Quiz/" title="The CSS Quiz was created to determine how well an individual understands the basic properties and application of CSS classes on HTML documents.">CSS Quiz</a>
+</li>
+</ul>
+</div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/HTML/Introduction/" title="The HTML tutorial explains HTML is and how to use it for web development.">
+HTML</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/JavaScript/Overview/" title="The JavaScript tutorial explains how JavaScript works and how developers can harness its power.">
+JavaScript</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/PHP/Overview/" title="The PHP tutorial explains how PHP operates and how you can use PHP on the web.">
+PHP</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/ColdFusion/Introduction/" title="The ColdFusion tutorial explains an introduction to ColdFusion and its syntax.">
+ColdFusion</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/Python/Overview/" title="The Python tutorial explains what Python is and can do for the internet.">
+Python</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/SQL/Overview/" title="The SQL tutorial explains an introductory look at how to use SQL. It also covers best practices for formatting your SQL code.">
+SQL</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/SEO/Introduction/" title="The SEO tutorial explains the most important aspect of people finding your website.">
+SEO</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/Graphic-Design/Introduction/" title="The Graphic Design tutorial explains the importance of Graphic Design on the web and how it can change the future of your website.">
+Graphic Design</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/Information-Architecture/Overview/" title="The Information Architecture tutorial explain how Information Architecture is another important aspect of a website, but Information Architecture the most forgotten.">
+Information Architecture</a></div>
+<div class="nav-element"><a href="http://www.afterhoursprogramming.com/tutorial/Usability/Introduction/" title="The Usability tutorial explains how to make your website more useful to your users.">
+Usability</a></div>
+
+            </div>
+            <div class="clear"></div>
+    	</div>    <a class="medium-heading hide-element" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" id="showTutorials" onclick="return false;" style="display: none;">Show Tutorials</a>
+    	        <div id="mainContent" class="text-right">
+        <br>
+                <br>
+        		<div class="gameplay">
+			<div class="text-centered" style="width:57%;vertical-align:top;">
+				<div class="game-name">
+				<a rel="nofollow" href="http://www.afterhoursprogramming.com/user/create/">You</a> (Level 0)				</div>
+				<div class="game-progress-bar-container" style="">
+					<div class="game-progress-bar" style="width:0%;"></div>
+				</div>
+				<div class="game-level-progress">0/25</div>
+			</div>
+			<div class="text-centered" style="width:37%;vertical-align:top;">
+				<div class="game-recent-badges" style="text-align:center;">Last Badge Earned </div>		
+				<a class="game-badge-link" href="http://www.afterhoursprogramming.com/badges/"><span class="badge" style="background-color:#006800;border-color:#006800;">Newest Visitor</span></a>			</div>
+		</div>
+                <!--<br/><br/>
+        <div class="update-message" title="Message expires at 4/01/2013 12:00PM (EST)"></div>
+        <br/>-->
+        
+				        <br>
+                    
+
+
+			<div class="abstract"><img style="margin-left:5px;float: right;vertical-align: top;" alt="CSS Overview Tutorial" height="140" src="./CSS Tutorial_files/css-logo.png"><h1>CSS Tutorial</h1><p>The CSS  tutorial explains a brief overview of how to use CSS to style your HTML documents.</p></div>                   
+                    <div class="tutorial-text" itemscope="itemscope" itemtype="http://schema.org/Article"><p>Welcome to the classy web world of style using <strong>CSS</strong>. Cascading Style Sheets are arguably one of the greatest things that happened to the web just over a decade ago. As you were writing your HTML in the previous tutorial, you might have thought that building a web page was lacking something. CSS is not only beautiful and stylish, but it is also very efficient.</p>
+<p>Cascading Style Sheets reside on the client side, which means the user can, with the correct knowledge, see all of your CSS files. Style Sheets were invented because the internet was plum boring due to the creators being scientists who were primarily interested in using the internet as a medium for communication (At least, that's how I'll write the history books on it). Kudos to them on developing the internet though.</p>
+<p>While the internet is awesome, thank goodness we have the World Wide Web Consortium (W3C). Some genius over there said, "Hey, let's make styling into a file type so we can have other pages link to it." He is my unnamed hero. This means you can create billions and zillions of HTML files using a particular naming structure on the HTML elements and 1 CSS file that can style all of them. That's right, you don't have to go into the HTML files to change the style. Isn't it so beautiful?</p>
+<p><strong>References</strong></p>
+<ul>
+	<li>
+	<a href="http://www.w3.org/Style/CSS/Overview.en.html" target="_blank">What is CSS? (w3)</a>
+	</li>
+	<li>
+	<a href="http://webdesign.about.com/od/beginningcss/a/aa021607.htm" target="_blank">What is CSS? (About)</a>
+	</li>
+	<li>
+	<a href="http://reference.sitepoint.com/css/css" target="_blank">CSS (sitepoint)</a>
+	</li>
+</ul></div>                    <div id="codeTestContainer">
+                    <p>Try testing your code with the code simulator!</p>
+                    <input type="submit" style="" onclick="toggleSimulator();" id="showCodeSimulator" value="Test Your code">
+                    <div id="codeSimulatorContainer" style="display:none;">
+						<div id="codeViewer"><p>Your code will execute in this window.</p></div>
+<fieldset style="max-width: 838.75px;">
+<label for="codeSimulator">Your Input:</label><br>
+<textarea id="codeSimulator" placeholder="Please type your code here">&lt;html&gt;
+&lt;head&gt; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;style&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/style&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+<hr>
+<input id="executeTest" type="submit" value="Test Code">
+</fieldset>
+<script>
+var tracer = 
+'<'+'script'+'>window.onerror = function(message, url, lineNumber) { document.getElementById("errorField").innerHTML = "<b>JavaScript error:</b> " + message + "<" + "br" + "/>Line: "+lineNumber+" of your JavaScript code";document.getElementById("errorField").style.backgroundColor = "#FFCECE";};'+'<'+'/script'+'>';
+
+$('#executeTest').click(function() {
+	var codeString = $('#codeSimulator').val();
+	//codeString = codeString.replace(/Â[&nbsp;]/g,'');
+	executeCode(codeString);
+	$.ajax({
+	  type: "POST",
+	  url: "http://www.afterhoursprogramming.com/tools/notepad/php-notepad-middle.php",
+	  data: { code: codeString, stopCache: Date(), optional:"HTML"},
+	}).done(function( feedback ) {
+	  codeString = feedback;
+		$('#executeTest').show(0);
+		$('#codeTesterLoading').html('Code Executed');
+	});
+});
+function executeCode(code) {
+	$('#codeViewer').html('');
+	var iframe = document.createElement('iframe');
+	iframe.setAttribute("id", "viewFrame");
+	var ctnr = document.getElementById('codeViewer');
+	var content = '<!DOCTYPE html>'
+	 + '<head><title>Dynamic iframe</title>'
+	 + '<body style="padding-bottom:50px;"><div id="innerCtnr"></div>'
+	 + '<div id="errorField" style="border-top:#CCC solid thin;position:fixed;bottom:0px;background-color:margin:0px auto; #D7FECF;background-color:#D7FECF;border-radius:5px;border: 4px solid transparent;-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);-moz-box-shadow: 0 0 4px rgba(0,0,0,0.5);box-shadow: 0 0 4px rgba(0,0,0,0.5);-webkit-background-clip: padding-box;-moz-background-clip: padding-box;background-clip: padding-box;padding:5px 5px 15px 5px;overflow:hidden;">No Errors!</div>'
+	 + tracer
+	 + code
+	 + '</body></html>';
+	
+	ctnr.appendChild(iframe);
+	iframe.contentWindow.document.open('text/html', 'replace');
+	iframe.contentWindow.document.write(content);
+	iframe.contentWindow.document.close();
+}
+$("#codeSimulator").keydown(function(e) {
+    if(e.keyCode === 9) { // tab was pressed
+	e.preventDefault();
+        var start = this.selectionStart;
+        var end = this.selectionEnd;
+        var $this = $(this);
+        var value = $this.val();
+        $this.val(value.substring(0, start)
+                    + "\t"
+                    + value.substring(end));
+        this.selectionStart = this.selectionEnd = start + 1;
+    }
+});	
+</script>
+<p>To get started with testing your JavaScript, HTML, and CSS code try adding an &lt;h1&gt; tag. Hint: The tag should be placed between the &lt;body&gt; and &lt;script&gt; tags. After you have inserted the &lt;h1&gt; tag, click the "Test Code" button.</p>
+                    </div>
+                    </div>
+                    <script type="text/javascript">
+                    var state = 'invisible';
+                        function toggleSimulator() {
+                            if(state == 'visible') {
+                                $('#codeSimulatorContainer').hide(0);
+                                 $('#showCodeSimulator').val('Test Your code');
+                                state = 'invisible';
+                            } else {
+                                $('#codeSimulatorContainer').show(0);
+                                 $('#showCodeSimulator').val('Hide Your Test Code');
+                                state = 'visible';
+                            }
+                        }
+                        $('#showCodeSimulator').show();
+                    </script>
+                    
+                    <p id="moveOn" style="line-height:250%;">Let's move on to some more tutorials or the next section!</p><br><br><div class="surrounding-articles" style="width:720px; margin:0px auto;">            <div style="float:right;width:300px;">
+            <h3 id="nextTutorial" class="no-margin" style="text-align:right;">Next Tutorial</h3>
+            <a id="nextTutorialLink" class="trigger right" href="http://www.afterhoursprogramming.com/tutorial/CSS/Introduction/" title="explains how to use CSS in an HTML document, primarily how to reference them.">
+Introduction</a>
+            </div>
+            <br><br></div><br><br><script type="text/javascript" src="./CSS Tutorial_files/shCore.js"></script>
+
+<script type="text/javascript">
+	//var newElement = '';
+//	for(var a = 0; a < document.getElementsByTagName('fieldset').length; a++) {
+//		var tempTest = document.getElementsByTagName('fieldset').item(a).outerHTML;
+//		if(tempTest.indexOf("<legend>Example</legend>") >=1) {
+//			var selectedElement = document.getElementsByTagName('fieldset').item(a);
+//			var tempContent = selectedElement.innerHTML;
+//			tempContent = tempContent.replace(/^\s\s*/, '').replace(/\s\s*$/, '')
+//			//need to replace blockquotes, brs, maybe p tags 
+//			tempContent = tempContent.replace(/<blockquote>/gi, '');
+//			tempContent = tempContent.replace(/<\/blockquote>/gi, '');
+//			tempContent = tempContent.replace(/<br\/>/gi, '');
+//			tempContent = tempContent.replace(/<br \/>/gi, '');
+//			tempContent = tempContent.replace(/<br>/gi, '');
+//			tempContent = tempContent.replace("<legend>Example</legend>","");
+//			tempContent.replace(/^\s\s*/, '').replace(/\s\s*$/, '')
+//			var newHTML = '<legend>Example</legend>' + newElement + tempContent + '</pre>';
+//			selectedElement.innerHTML = newHTML;
+//		}
+//	}
+//	SyntaxHighlighter.all()
+</script>
+
+
+<br>
+<div class="mobile-ad-large"> 
+	<script type="text/javascript"><!--
+    google_ad_client = "ca-pub-6794114902756684";
+    /* Bottom Banner */
+    google_ad_slot = "5201669545";
+    google_ad_width = 728;
+    google_ad_height = 90;
+	google_page_url = "www.afterhoursprogramming.com/tutorial/CSS/Overview/";
+    //-->
+    </script>
+    <script type="text/javascript" src="./CSS Tutorial_files/show_ads.js">
+    </script><ins id="aswift_1_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;"></iframe></ins></ins>
+</div>
+<br><br>
+<div class="abstract" id="socialMediaId" style="text-align:center;">
+<p>If you enjoyed this resource, support me by sharing this page with others.</p>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;stumbleupon&#39;);return false;"><img alt="Stumbleupon" src="./CSS Tutorial_files/stumbleupon.jpg" style="border:none;"></a>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;facebook&#39;);return false;"><img alt="Facebook" src="./CSS Tutorial_files/facebook.jpg" style="border:none;"></a>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;twitter&#39;);return false;"><img alt="Twitter" src="./CSS Tutorial_files/twitter.jpg" style="border:none;"></a>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;googleplus&#39;);return false;"><img alt="GooglePlus" src="./CSS Tutorial_files/googleplus.jpg" style="border:none;"></a>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;reddit&#39;);return false;"><img alt="Reddit" src="./CSS Tutorial_files/reddit.jpg" style="border:none;"></a>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;delicious&#39;);return false;"><img alt="Delicious" src="./CSS Tutorial_files/delicious.jpg" style="border:none;"></a>
+    <a href="" class="small-border border-fade hover-border" style="width:50px;margin:0px 5px;display:inline-block;" onclick="socialClick(&#39;digg&#39;);return false;"><img alt="Digg" src="./CSS Tutorial_files/digg.jpg" style="border:none;"></a>
+</div>
+<br>
+<script>
+	function socialClick(shareService) {
+		var userId = "";
+		var platform,url;
+		switch(shareService) {
+			case "stumbleupon":
+				platform = "stumbleupon";
+				url = "http://www.stumbleupon.com/submit?url=www.afterhoursprogramming.com/tutorial/CSS/Overview/";
+			break;	
+			case "facebook":
+				platform = "facebook";
+				url = "https://www.facebook.com/sharer/sharer.php?u=www.afterhoursprogramming.com/tutorial/CSS/Overview/";
+			break;	
+			case "twitter":
+				platform = "twitter";
+				url = "http://twitter.com/home?status=Learning%20about%20www.afterhoursprogramming.com/tutorial/CSS/Overview/"
+			break;	
+			case "googleplus":
+				platform = "googleplus";
+				url = "https://plus.google.com/share?url=www.afterhoursprogramming.com/tutorial/CSS/Overview/"
+			break;
+			case "reddit":
+				platform = "reddit";
+				url = "http://www.reddit.com/submit?url=www.afterhoursprogramming.com/tutorial/CSS/Overview/"
+			break;	
+			case "delicious":
+				platform = "delicious";
+				url = "http://delicious.com/save?v=5&noui&jump=close&url=www.afterhoursprogramming.com/tutorial/CSS/Overview/"
+			break;	
+			case "digg":
+				platform = "digg";
+				url = "http://digg.com/submit?url=www.afterhoursprogramming.com/tutorial/CSS/Overview/"
+			break;	
+		}
+		$.ajax({
+			  type: "POST",
+			  url: "http://www.afterhoursprogramming.com/tools/social-media/count-share.php",
+			  data: { user: userId, page: 'www.afterhoursprogramming.com/tutorial/CSS/Overview/', type: platform},
+			}).done(function( feedback ) {
+				window.open(url, "AfterHoursProgramming", "height=600,width=650");
+			});
+	}
+
+</script>
+<div class="comments-container">
+<div class="comment-block">
+<hr>
+	<h2>Comment or Suggestion?</h2>
+	<div>
+    <p>Comments are a way to tell me about corrections or suggestions, what you thought about the resource, or providing additional information. Help feed the discussion!</p>
+    </div>
+</div>
+
+<form action="http://www.afterhoursprogramming.com/document-comment/post/" method="post" id="articlePostId">
+    <input type="hidden" name="document" value="www.afterhoursprogramming.com/tutorial/CSS/Overview/">
+        <p></p>
+    
+    <div id="commentNameDiv" class="">
+    <label class="comment-label" for="commentNameId">Name:</label>
+    <input id="commentNameId" style="width:200px;" type="text" name="commentName" placeholder="Ex: Jared Drake" value=""> 
+    <div id="commentNameError"></div>
+    </div>
+    
+    <div id="commentEmailDiv" title="We require your email address because it helps identify you as a user to stop spam." class="">
+    <label class="comment-label" for="commentEmailId">Email:</label>
+    <input id="commentEmailId" style="width:200px;" type="text" name="commentEmail" placeholder="username@example.com" value=""> 
+    <div id="commentEmailError"></div>
+    </div>
+        <div id="commentRatingDiv" title="Rate this web page." class="">
+    <label class="comment-label" for="commentRatingId">Rating:</label>
+    <select id="commentRatingId" name="commentRating">
+        <option value="1">Great</option>
+        <option value="2">Kinda Good</option>
+        <option value="3">Average</option>
+        <option value="4">Kinda Bad</option>
+        <option value="5">Bad</option>
+    </select>
+    <div id="commentRatingError"></div>
+    </div>
+    <div id="commentMessageDiv" class="">
+    <label class="comment-label" for="commentMessageId">Comment or Suggestion: </label>
+    <textarea id="commentMessageId" style="width:98%;height:80px;margin-bottom:5px;" name="comment" placeholder="Please type your comment here"></textarea>
+    <div id="commentMessageError"></div>
+    </div>
+        <br>
+        <div id="commentHumanDiv" style="text-align:center;" class="">
+            <label class="comment-label" style="width:150px;" for="commentHumanId">Are you human? </label>
+            <input id="commentHumanId" type="checkbox" name="humanOne" value="1">Yes
+            <div id="commentHumanError"></div>
+   		</div>
+    <br>
+        <input style="display:block;width:100px;margin:0px auto;" id="commentSubmitId" name="Submit" type="submit" value="Post">
+</form>
+<br><br>
+<div class="mobile-ad-large"> 
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-6794114902756684";
+    google_ad_slot = "5201669545";
+    google_ad_width = 728;
+    google_ad_height = 90;
+	google_page_url = "www.afterhoursprogramming.com/tutorial/CSS/Overview/";
+    //-->
+    </script>
+    <script type="text/javascript" src="./CSS Tutorial_files/show_ads.js">
+    </script><ins id="aswift_2_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;"></iframe></ins></ins>
+</div>
+<hr>
+<script type="text/javascript">
+//validation object that takes global scope 
+//if user does not define length object defaults to inputValidator.maxLength (for strings only)
+var inputValidator = { //Properties
+	className: "Input Validator",
+	classDescription: "Validates inputs against special schemes like phone number, zip code, etc. ",
+	inputValid: false,
+	maxLength: 1000,
+	//METHODS
+	alphabeticalString: function (input, length) {//matches alphabetical characters
+		"use strict";
+		if (length === undefined) {length = inputValidator.maxLength; }
+		try {//pretty much everything is allowed :/
+			var inputValid, alphaPattern;
+			inputValid = false;
+			if (input.length <= length) {
+				alphaPattern = /[a-zA-Z]/;
+				if (alphaPattern.test(input)) {
+					inputValid = true;
+				}
+			}return inputValid;	
+		} catch (e) {
+			this.errorRecorder('alphabeticalString', e);
+		}
+	},
+	emailAddress: function (input, length) {//validates emails using an example like something@email.com
+		"use strict";
+		if (length === undefined) {length = inputValidator.maxLength; }
+		try {
+			var inputValid = false;
+			if (input.length <= length) {
+				var emailAddressPattern = /[a-zA-Z0-9-.][@]+[[a-zA-Z0-9-.]/;
+				if (emailAddressPattern.test(input)) {
+					inputValid = true;
+				}
+			}
+			return inputValid;	
+		} catch (e) {
+			this.errorRecorder('emailAddress', e);
+		}
+	},
+	limitLength: function (input, length) {//only limits length. Does NOT care about the characters
+		"use strict";
+		try {
+			var inputValid = false;
+			if (input.length <= length) {
+				inputValid = true;
+			}
+			return inputValid;	
+		} catch (e) {
+			this.errorRecorder('limitLength', e);
+		}	
+	},
+	minLength: function (input, length) {//make sure it is longer than a certain number of characters, but does not care about what the characters are.
+		"use strict";
+		try {
+			var inputValid = false;
+			if (input.length >= length) {
+				inputValid = true;
+			}
+			return inputValid;	
+		} catch (e) {
+			this.errorRecorder('minLength', e);
+		}	
+	},
+	password: function (input, minLength, maxLength) {//validates only strong passwords. Password must include a capital letter, and a "non alphabetical charater"
+		"use strict";
+		if (minLength === undefined) {minLength = 0; }
+		if (maxLength === undefined) {maxLength = inputValidator.maxLength; }
+		try {
+			var inputValid = false;
+			if (input.maxLength <= maxLength && input.minLength >= minLength ) {
+				var passwordMediumPattern = /[A-Z]+/;
+				var passwordStrongPattern = /[^a-zA-Z]/;
+				if (passwordMediumPattern.test(input) && passwordStrongPattern.test(input) && input.length >= 8) {
+					inputValid = true;
+				}
+			}
+			return inputValid;	
+		} catch (e) {
+			this.errorRecorder('password', e);
+		}
+	},
+	phoneNumber: function (input) { //validates for 2 types of phone numbers 1234567890 or (123) 456-7890
+		"use strict";
+		try {
+			var inputValid = false;
+			var phonePattern = /^((\d{10})|(\(\d{3}\) \d{3}\-\d{4}))$/;
+			if (phonePattern.test(input)) {
+				inputValid = true;
+			}
+			return inputValid;	
+		} catch (e) {
+			this.errorRecorder('phoneNumber', e);
+		}
+	},
+	zipCode: function (input) { //validates for 5 digit zip code
+		"use strict";
+		try {
+			var inputValid = false;
+			var zipCodePattern = /^\d{5}$/;
+			if (zipCodePattern.test(input)) {
+				inputValid = true;
+			}
+			return inputValid;	
+		} catch (e) {
+			this.errorRecorder('zipCode', e);
+		}
+	},
+	errorRecorder: function (methodName, error, special) {//outputs important error debugging information to the console.
+		"use strict";
+		try {
+			if (undefined === special) {
+				specialMessage = "(none)";	
+			}
+			console.log('Error occurred in:\n' +
+			'Class Name: ' + this.className + '\n' +
+			'Method Name: ' + methodName + '\n' +
+			'Special Message: ' + specialMessage + '\n' +
+			'Standard Error: ' + error
+			 );
+		} catch (e) {
+			console.log(e);
+		}
+	}
+};  
+$(document).ready(function() {
+	//comment name
+	$('#commentNameId').focusout(function(e) {
+		if (inputValidator.alphabeticalString($('#commentNameId').val(),20)) {
+			$('#commentNameDiv').removeClass('background-error');
+			$('#commentNameError').html('');
+		}
+		else {
+			$('#commentNameDiv').addClass('background-error');
+			$('#commentNameError').html('<div>(Name must be alphabetical and it cannot be longer than 20 characters.)</div>');
+		}
+	});
+	
+	$('#commentEmailId').focusout(function(e) {
+		if (inputValidator.emailAddress($('#commentEmailId').val())) {
+			$('#commentEmailDiv').removeClass('background-error');
+			$('#commentEmailError').html('');
+		}
+		else {
+			$('#commentEmailDiv').addClass('background-error');
+			$('#commentEmailError').html('<div>(Please enter a valid email address.)</div>');
+		}
+	});
+	
+	//comment message
+	$('#commentMessageId').focusout(function(e) {
+		if (inputValidator.minLength($('#commentMessageId').val(),25)) {
+			$('#commentMessageDiv').removeClass('background-error');
+			$('#commentMessageError').html('');
+		}
+		else {
+			$('#commentMessageDiv').addClass('background-error');
+			$('#commentMessageError').html('<div>(Message must be longer than 25 characters.)</div>');
+		}
+	});
+	//comment message
+	$('#commentHumanId').change(function(e) {
+		if ($('#commentHumanId').is(':checked')) {
+			$('#commentHumanDiv').removeClass('background-error');
+			$('#commentHumanError').html('');
+		}
+		else {
+			$('#commentHumanDiv').addClass('background-error');
+			$('#commentHumanError').html('<div>(Please select you are human.)</div>');
+		}
+	});
+	
+});
+</script>
+<a id="comments"></a>
+<h2 class="comment-title">Comments on CSS Tutorial</h2>        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						amin man					</span>
+                                    	<div class="gray">September 8, 2014 11:22PM</div>
+                    <pre>amin man is good boy.  sad sad sadasd ad</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="3812div"><a id="3812" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/8084/">Vasiluk Wolf</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">525</span>					</div>
+				                	<div class="gray">April 16, 2014 01:39PM</div>
+                    <pre>This some good tutorial.Some time this for junior man.</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="2286div"><a id="2286" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/5505/">Charles Jones</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">500</span>					</div>
+				                	<div class="gray">January 7, 2014 11:57AM</div>
+                    <pre>Great overall tutorial! Do you plan on doing any CSS3 tutorials?</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="1609div"><a id="1609" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/4901/">ericWS</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">1250</span>					</div>
+				                	<div class="gray">December 27, 2013 09:44PM</div>
+                    <pre>Just like the HTML tutorial, this was a good reminder of the CSS that I had forgotten.</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="1541div"><a id="1541" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/4282/">ducito</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">550</span>					</div>
+				                	<div class="gray">November 15, 2013 12:30AM</div>
+                    <pre>it's so cool :) i love it!</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="1283div"><a id="1283" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						siraj					</span>
+                                    	<div class="gray">August 22, 2013 04:33AM</div>
+                    <pre>Good questions, really helpful 
+thanking you
+Mohammed Siraj</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="839div"><a id="839" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/empty-user.gif">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/2253/">Tom Flitt</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">200</span>					</div>
+				                	<div class="gray">August 3, 2013 09:32AM</div>
+                    <pre>Hi !
+This is a cool way to review all of our css knowledge !
+Thanks and good luck by the way ! :)</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="721div"><a id="721" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/1371294017933246107610.png">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/1251/">payal_tg</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">250</span>					</div>
+				                	<div class="gray">June 15, 2013 06:50AM</div>
+                    <pre>New journey in css tutorials  </pre>
+				</div>
+				<div class="clear"></div>
+                <div id="502div"><a id="502" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		        <div class="border-fade">
+			<div class="comment-block">
+                <img class="comment-image border-fade spaced-image" alt="user" src="./CSS Tutorial_files/137079196910102746587.jpg">
+				<div class="comment-right">
+                	<span class="comment-name">
+						<a href="http://www.afterhoursprogramming.com/user/profile/1347/">grant</a>					</span>
+                                        <div class="comment-points">
+					<span class="success">600</span>					</div>
+				                	<div class="gray">June 11, 2013 05:09PM</div>
+                    <pre>My first introduction to CSS and I feel I've learned a lot. The quiz at the end really reinforces the material. Thanks! :)</pre>
+				</div>
+				<div class="clear"></div>
+                <div id="491div"><a id="491" href="http://www.afterhoursprogramming.com/tutorial/CSS/Overview/#" onclick="sendSpamFlag(this.id);return false;">Flag as Spam</a>
+				</div>
+         	</div>
+         </div>
+         <br><br>
+		    <script>
+	function sendSpamFlag(flagCommentId) {
+		documentUrl = 'www.afterhoursprogramming.com/tutorial/CSS/Overview/';
+		$.ajax({
+			  type: "POST",
+			  url: "http://www.afterhoursprogramming.com/tools/comments/document-comment-flag-spam.php?",
+			  data: { commentId: documentUrl},
+			}).done(function( feedback ) {
+				$('#'+flagCommentId+'div').html('<spam class="error">Marked as spam</span>');
+			});
+	}
+	</script>
+	<br></div>
+<script>
+var jsDisabled = 0;
+var widthSmall = false;
+</script>
+<!--[if lte IE 8]>
+    <script>
+        jsDisabled = 1;
+    </script>
+<![endif]-->
+<script>
+	$(document).ready(function() {
+		sizeAdjustment();
+		setTimeout('sizeAdjustment()',4000);
+	});
+	$(window).resize(function() {
+		sizeAdjustment();
+	});
+	function sizeAdjustment() {
+		
+		if(jsDisabled == 0) {
+			if(!widthSmall) {
+				if(!$('img.logo').is(":visible") ) {
+					$('.text-left').hide();
+					$('#showTutorials').show();
+					$('#showTutorials').removeClass('hide-element');
+					$('#showTutorials').addClass('show-more-nav');
+					$('#showTutorials').css('display','block');
+					widthSmall = true;
+					
+				} else {
+					$('.text-left').show();
+					$('#showTutorials').hide();
+					$('#showTutorials').addClass('hide-element');
+					$('#showTutorials').removeClass('show-more-nav');
+				}
+			}
+			
+			if($('img.logo').is(":visible")) {
+				widthSmall = false;
+				$('#showTutorials').text('Show Tutorials');
+			}
+		}
+		highlighterWidth = Math.round($('#mainContent').width() - 66);
+		$('.syntaxhighlighter table td.code .container').css('max-width',highlighterWidth);
+		$('fieldset').css('max-width',$('#mainContent').width() - 20);
+		//console.log(highlighterWidth);
+		//console.log($(document).width());
+	}
+	$('#showTutorials').click(function(e) {
+		if(jsDisabled == 0) {
+			$('.text-left').toggle();
+			if($('.text-left').is(":visible")) {
+				$('#showTutorials').text('Hide Tutorials');
+			} else {
+				$('#showTutorials').text('Show Tutorials');
+			}
+		}
+    });
+</script>
+<!--Footer Begin-->
+ </div>
+    <div class="clear"></div>
+</div>
+<div class="footer-push"></div>
+</div>
+<div class="footer">
+    <div class="big-container">
+        <div class="nav">
+            <ul>
+                <li><a id="aboutLinkId" href="http://www.afterhoursprogramming.com/about/" title="About After Hours Programming">About</a></li> 
+    
+                <li><a rel="nofollow" id="rssLinkId" href="http://www.afterhoursprogramming.com/services/rss/" title="RSS Feed">RSS Feed</a></li>  
+    
+                <li><a id="upcomingLinkId" href="http://www.afterhoursprogramming.com/future-resources/" title="Future Tutorials">Upcoming Tutorials</a></li> 
+            </ul>
+            <ul>
+                <li><a rel="nofollow" id="facebookLinkId" href="https://www.facebook.com/AfterHoursProgramming" title="After Hours Programming on Facebook">Facebook</a></li> 
+                <li><a rel="nofollow" id="twitterLinkId" href="https://twitter.com/AHProgramming" title="After Hours Programming on Twitter">Twitter</a></li>
+            </ul> 
+            <ul>
+                <li><a rel="nofollow" id="contactLinkId" href="http://www.afterhoursprogramming.com/contact/" title="Contact After Hours Programming">Contact</a> </li> 
+                <li><a href="http://www.afterhoursprogramming.com/newsletter/" title="Newsletter Archive for After Hours Programming">Newsletter Archive</a></li> 
+                <li><a rel="nofollow" href="http://www.afterhoursprogramming.com/information/privacy-policy/" title="After Hours Programming&#39;s Privacy Policy">Privacy Policy</a></li> 
+            </ul>
+        </div>
+    </div>
+    <br><br>
+    <div class="nav">© 2014 <a rel="nofollow" id="homeLinkId" href="http://www.afterhoursprogramming.com/" title="Web Development Tutorials">AfterHoursProgramming.com</a></div>
+</div>
+</div>
+
+    
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-xNVdf5aRcKj2_"
+});
+</script>
+
+<noscript>
+&lt;div style="display:none;"&gt;
+&lt;img src="//pixel.quantserve.com/pixel/p-xNVdf5aRcKj2_.gif" height="1" width="1" alt="Quantcast"/&gt;
+&lt;/div&gt;
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript">
+var trackNextHover = false;
+var trackPreviousHover = false;
+function trackNavHover(type) {
+	if(type == "next" && !trackNextHover) {
+		logHoverEvent('next');
+		trackNextHover = true;
+		return true;
+	}
+	if(type == "previous" && !trackPreviousHover) {
+		logHoverEvent('previous');
+		trackPreviousHover = true;
+		return true;
+	}
+	return false;
+}
+
+function logHoverEvent(type) {
+	var message = {'message' : type};
+		//they no longer want to see this because they understand how to navigate
+	$('#moveOn').hide(10);
+		$.post('http://www.afterhoursprogramming.com/hover-tracker.php',message);
+}
+
+$("#previousTutorialLink").hover(function(){
+	trackNavHover('previous');
+});
+$("#nextTutorialLink").hover(function(){
+	trackNavHover('next');
+});	
+</script>
+<!--Created By Jared Drake 14-->
+</body></html>

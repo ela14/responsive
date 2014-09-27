@@ -1,0 +1,22 @@
+
+
+.slider-wrapper { 
+	width: 100%; 
+	margin: 0px;
+        height: 100%;
+}
+
+.theme-default #slider {
+    margin:0px;
+}
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+    margin-top:0px;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
